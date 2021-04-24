@@ -1,0 +1,16 @@
+.container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+}
+
+.container-input, .container-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-items {
+    flex-direction: column;
+}
