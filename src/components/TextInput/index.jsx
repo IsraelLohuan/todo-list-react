@@ -1,7 +1,11 @@
 import "./style.css";
 
-export const TextInput = () => {
+export const TextInput = ({value, onChange}) => {
     return (
-        <input placeholder="Nova Tarefa"></input>
+        <input 
+            placeholder="Nova Tarefa" 
+            onChange={onChange}
+            value={value}
+        ></input>
     );
 }

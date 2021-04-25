@@ -1,5 +1,5 @@
 import "./style.css";
 
-export const Button = () => (
-    <button className="button">+</button>
+export const Button = ({onClick}) => (
+    <button className="button" onClick={onClick}>+</button>
 );
